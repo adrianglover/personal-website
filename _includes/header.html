@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1894.1">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 14.0px Menlo; color: #599ef0; -webkit-text-stroke: #599ef0}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 14.0px Menlo; color: #82ca80; -webkit-text-stroke: #82ca80}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 14.0px Menlo; color: #a4aab8; -webkit-text-stroke: #a4aab8}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 14.0px Menlo; color: #a4aab8; -webkit-text-stroke: #a4aab8; background-color: #262626}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 14.0px Menlo; color: #a4aab8; -webkit-text-stroke: #a4aab8; background-color: #262626; min-height: 16.0px}
+    span.s1 {font-kerning: none; color: #cbcfd7; -webkit-text-stroke: 0px #cbcfd7}
+    span.s2 {font-kerning: none}
+    span.s3 {font-kerning: none; color: #a4aab8; background-color: #262626; -webkit-text-stroke: 0px #a4aab8}
+    span.s4 {font-kerning: none; color: #599ef0; -webkit-text-stroke: 0px #599ef0}
+    span.s5 {font-kerning: none; color: #fecc66; -webkit-text-stroke: 0px #fecc66}
+    span.s6 {font-kerning: none; background-color: #262626}
+    span.Apple-tab-span {white-space:pre}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;</span><span class="s2">aside</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s3"><span class="Apple-tab-span">	</span></span><span class="s1">&lt;</span><span class="s4">div </span><span class="s5">class</span><span class="s1">="</span><span class="s2">container</span><span class="s1">"&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span><span class="s1">&lt;</span><span class="s2">nav</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span><span class="s1">&lt;</span><span class="s4">ul</span><span class="s1">&gt;</span></p>
+<p class="p4"><span class="s2">{% for page in site.pages %} {% if page.title %}</span></p>
+<p class="p2"><span class="s1">&lt;</span><span class="s4">li</span><span class="s1">&gt;&lt;</span><span class="s4">a </span><span class="s5">href</span><span class="s1">="</span><span class="s2">{{ page.url | prepend: site.baseurl }}</span><span class="s1">"&gt;</span><span class="s3">{{ page.title }}</span><span class="s1">&lt;/</span><span class="s4">a</span><span class="s1">&gt;&lt;/</span><span class="s4">li</span><span class="s1">&gt;</span></p>
+<p class="p4"><span class="s2">{% endif %} {% endfor %}</span></p>
+<p class="p3"><span class="s1">&lt;</span><span class="s4">li</span><span class="s1">&gt;</span><span class="s6">&lt;a href="{{ "/blog" | prepend: site.baseurl }}"&gt;Blog</span><span class="s1">&lt;/</span><span class="s4">a</span><span class="s1">&gt;&lt;/</span><span class="s4">li</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span><span class="s1">&lt;/</span><span class="s4">ul</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span><span class="s1">&lt;/</span><span class="s4">li</span><span class="s1">&gt;</span></p>
+<p class="p3"><span class="s6"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span><span class="s1">&lt;/</span><span class="s4">ul</span><span class="s1">&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span><span class="s1">&lt;/</span><span class="s2">nav</span><span class="s1">&gt;</span></p>
+<p class="p1"><span class="s3"><span class="Apple-tab-span">	</span></span><span class="s1">&lt;/</span><span class="s2">div</span><span class="s1">&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/</span><span class="s2">aside</span><span class="s1">&gt;</span></p>
+<p class="p5"><span class="s2"></span><br></p>
+<p class="p1"><span class="s1">&lt;</span><span class="s2">header</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s3"><span class="Apple-tab-span">	</span></span><span class="s1">&lt;</span><span class="s4">h1</span><span class="s1">&gt;&lt;</span><span class="s4">a </span><span class="s5">href</span><span class="s1">="</span><span class="s2">{{ site.baseurl }}</span><span class="s1">"&gt;</span><span class="s3">{{ site.title }}</span><span class="s1">&lt;/</span><span class="s4">a</span><span class="s1">&gt;&lt;/</span><span class="s4">h1</span><span class="s1">&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/</span><span class="s2">header</span><span class="s1">&gt;</span></p>
+</body>
+</html>
